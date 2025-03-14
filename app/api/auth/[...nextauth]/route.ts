@@ -8,5 +8,6 @@ export async function GET(
   console.log("nextauth", nextauth);
   return NextResponse.json({
     success: true,
+    nextauth,
   });
 }
